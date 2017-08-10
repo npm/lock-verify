@@ -1,0 +1,26 @@
+{
+  "name": "lock-verify",
+  "version": "1.0.0",
+  "description": "Report if your package.json is out of sync with your package-lock.json.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rebecca Turner <me@re-becca.org> (http://re-becca.org/)",
+  "license": "ISC",
+  "dependencies": {
+    "@iarna/cli": "1.1.0",
+    "npm-package-arg": "^5.1.2",
+    "semver": "^5.3.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iarna/lock-verify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iarna/lock-verify/issues"
+  },
+  "homepage": "https://github.com/iarna/lock-verify#readme"
+}
