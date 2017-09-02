@@ -2,7 +2,7 @@
   "name": "lock-verify",
   "version": "1.0.1",
   "description": "Report if your package.json is out of sync with your package-lock.json.",
-  "bin": "index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
