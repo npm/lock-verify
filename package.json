@@ -10,7 +10,7 @@
   "author": "Rebecca Turner <me@re-becca.org> (http://re-becca.org/)",
   "license": "ISC",
   "dependencies": {
-    "npm-package-arg": "^5.1.2",
+    "npm-package-arg": "^6.1.0",
     "semver": "^5.4.1"
   },
   "devDependencies": {
