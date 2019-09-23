@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "npm-package-arg": "^6.1.0",
-    "semver": "^5.4.1"
+    "semver": "^6.3.0"
   },
   "devDependencies": {
     "@iarna/cli": "^1.2.0"
