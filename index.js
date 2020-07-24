@@ -47,6 +47,9 @@ function lockVerify(check) {
               errors.push("Invalid: lock file's " + name + '@' + lock.version + ' does not satisfy ' + name + '@' + spec.fetchSpec)
               return
             }
+            if (semver.minVersion(spec.fetchSpec).version !== lock.version) {
+              warnings.push('package-lock is newer than package: ' + lock.version + ' ' + spec.fetchSpec + ' ' + name)
+            }
           }
         } else if (spec.type === 'git') {
           // can't verify git w/o network
