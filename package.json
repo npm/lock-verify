@@ -7,9 +7,9 @@
   "author": "Rebecca Turner <me@re-becca.org> (http://re-becca.org/)",
   "license": "ISC",
   "dependencies": {
+    "@iarna/cli": "^2.1.0",
     "npm-package-arg": "^6.1.0",
-    "semver": "^5.4.1",
-    "@iarna/cli": "^1.2.0"
+    "semver": "^5.4.1"
   },
   "repository": {
     "type": "git",
