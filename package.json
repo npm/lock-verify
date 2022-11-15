@@ -9,7 +9,7 @@
   "dependencies": {
     "npm-package-arg": "^6.1.0",
     "semver": "^5.4.1",
-    "@iarna/cli": "^1.2.0"
+    "@iarna/cli": "^2.1.0"
   },
   "repository": {
     "type": "git",
