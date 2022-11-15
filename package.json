@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iarna/lock-verify.git"
+    "url": "git+https://github.com/npm/lock-verify.git"
   },
   "bugs": {
-    "url": "https://github.com/iarna/lock-verify/issues"
+    "url": "https://github.com/npm/lock-verify/issues"
   },
-  "homepage": "https://github.com/iarna/lock-verify#readme",
+  "homepage": "https://github.com/npm/lock-verify#readme",
   "files": [
     "index.js",
     "cli.js"
